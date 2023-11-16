@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="q v s" />
+    <meta name="description" content="producer from fl" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icons/icon.ico">
+    <title>q v s</title>
+</head>
+<body onload="move()"">
+    <div id="preloader">
+      <div id="percent">1%</div>
+      <div id="bar">
+      <div id="barconfrm"></div>
+    </div>
+    </div>
+    <div class="bg"><video playsinline autoplay muted loop id="bgvid">
+        <source src="https://assets.qvs.one/bgvid.mp4" type="video/mp4">
+        </video>
+        <canvas></canvas>
+        <script src="/assets/scripts/fluid.js"></script>
+    </div>
+      <audio class="audio" id="bgmus" src="assets/blessed.mp3" autoplay></audio> 
+      <div class="music">
+        <img  src="assets/icons/sound.svg" alt="">
+        <img  style="display: none;" src="assets/icons/mute.svg" alt="">
+      </div>
+      <div class="welcome gradient-background">
+        <div class="welcome-content">
+            <h1 class="title">welcome</h1>
+            <button id="enter">enter</button>
+        </div>
+      </div>
+      <nav>
+        <span>qvs</span>
+      </nav>
+      <div class="main">
+        <div class="main-content">
+            <h1 class="title our-text">socials</h1>
+            <div class="socials">
+                <a href="https://www.instagram.com/qvwb/"><img src="assets/icons/instagram.svg" alt=""></a>
+                <a href="https://www.youtube.com/@prodqvs"><img src="assets/icons/youtube.svg" alt=""></a>
+                <a href="https://soundcloud.com/qvwb"><img src="assets/icons/soundcloud.svg" alt=""></a>
+                <a href="https://www.tiktok.com/@prodqvs"><img src="assets/icons/tiktok.svg" alt=""></a>
+            </div>
+        </div>
+      </div> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+      <script type="module" src="/assets/scripts/script.js"></script>
+      <script src="/assets/scripts/preloader.js"></script>
+</body>
+</html>
